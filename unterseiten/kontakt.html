@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <title>Buchungen</title>
+</head>
+<body>
+  <section>
+    <nav class="nav-content">
+      <input type="checkbox" id="nav-burger" class="nav-burger">
+        <div class="nav-logo">
+          <a href="../index.html">
+            <img src="../logo/Zeichenfläche 1.png" class="logo">
+          </a>
+        </div>  
+        <label for="nav-burger" class="nav-burger-label">
+          <span></span>
+        </label>
+        <div class="menu-list">
+          <ul id="menu">
+             <li class="has-dropdown"><a href='#'>Touren für Kinder & Familien</a>
+              <ul class="dropdown">
+                <li><a href="../unterseiten/touren.html">Touren für Kinder & Familien</a></li>
+                <li><a href="#">Speicherstadt & Gewürzmuseum</a></li>
+                <li><a href="#">Klabautermanntour</a></li>
+                <li><a href="../unterseiten/gruseltour.html">Gruseltour mit Nachtwächter</a></li>
+                <li><a href="#">Sportliche Entdeckertour</a></li>
+              </ul>
+             </li>
+             <li class="has-dropdown"><a href='#'>Touren für Jugendliche</a>
+              <ul class="dropdown">
+                <li><a href="#">Große Baumeister</a></li>
+                <li><a href="#">Die wachsende Stadt</a></li>
+                <li><a href="#">HafenCity-Rallye</a></li>
+                <li><a href="#">Sportliche Entdeckertour</a></li>
+              </ul>
+             </li>
+             <li class="has-dropdown"><a href='#'>Kindergeburtstage</a>
+              <ul class="dropdown">
+                <li><a href="#">Piraten-Ralley</a></li>
+                <li><a href="#">Pfefferkörner & Verbrecherjagd</a></li>
+                <li><a href="#">Elbphilharmonie entdecken</a></li>
+              </ul>
+             </li>
+             <li><a href='../unterseiten/buchung.html'>Buchung</a></li>
+          </ul>
+        </div>
+   </nav>
+   <h1 class="kont-2">Hier können sie uns gerne Kontaktieren</h1>
+
+   <form action="/submit_form" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br>
+    <label for="lastname">Vorname:</label>
+    <input type="text" id="lastname" name="lastname"><br>
+    <label for="phone">Handynummer:</label>
+    <input type="tel" id="phone" name="phone"><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br>
+    <label for="message">Nachricht:</label>
+    <textarea id="message" name="message"></textarea><br>
+    <input type="submit" value="Senden">
+  </form>
+  </section>
+
+
+    
+
+  <footer>
+    <a href="/unterseiten/kontakt.html">Kontakt</a>
+    <a href="#"><img class="svg-2" src="../icons/instagram_icon.svg"></a>
+    <img class="svg-2" src="../icons/facebook_icon.svg">
+    <a href="#">Impressum</a>
+  </footer>
+
+</body>
+</html>
